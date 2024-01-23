@@ -16,7 +16,7 @@ Linguagem que sera usada **Mysql** A SQL — Structured Query Language, ou lingu
 ## conectando 
 
 
-comand: mysql -h localhost -u root obs : **-h é a maquina que esta conectada e -u o usuario = root '\c' limpa tudo, '\h' é igual a help ajuda** 
+comand: `mysql -h localhost -u root obs : **-h é a maquina que esta conectada e -u o usuario = root '\c' limpa tudo, '\h' é igual a help ajuda** `
 
  1-show databases; obs : **;** é importante para o codigo 
 
@@ -24,4 +24,4 @@ comand: mysql -h localhost -u root obs : **-h é a maquina que esta conectada e 
 
  3-create database para criar um banco de dados  
 
-4- colocar o 
+`conectar no servidor de banco de dados `
