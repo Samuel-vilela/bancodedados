@@ -38,7 +38,10 @@ comand: `mysql -h localhost -u root obs : **-h é a maquina que esta conectada e
 
 ## DML -  MANIPULAÇÃO DE DADOS 
 - select * from nome_da_tabela 
-- insert into nome_da_tabela(campo1, campo2)
+- ## usado para inseriar um conteudo 
+insert into vendedores(id, nome) values(2,'john');
+ ## para mostrar a tabela 
+ MariaDB [samuel_veiculos]> 'select * from vendedores;'
 
 
 # Exercício BD02 - Dissertativa
@@ -69,3 +72,24 @@ diferenças -
 
 - 3     T-SQL:  É muito mais fácil de entender e simples de usar.
         PL-SQL: É considerado mais complexo que o T-SQL e mais poderoso.
+
+        dia 31/01/2024 
+
+       -- para colocar um comentario  
+       
+       ## usado para deleta o que esta dentro da tabela 
+
+       delete from jogadores 
+
+       ## para adicionar um filtro para deletar 
+
+       'delete from jogadores where id > 2; 
+
+       ## filtro para selecionar um elemento dentro da tabela 
+
+       , update vendedores set nome='john' where id = 2;
+
+
+
+
+
